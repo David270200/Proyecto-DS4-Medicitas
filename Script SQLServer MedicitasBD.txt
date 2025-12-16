@@ -1,0 +1,88 @@
+Script SQLServer MedicitasBD
+
+-
+CREATE DATABASE MediCitasBD;
+GO
+USE MediCitas;
+GO
+
+
+CREATE TABLE Usuarios (
+    id_usuario INT IDENTITY(1,1) PRIMARY KEY,
+    nombre NVARCHAR(50) NOT NULL,
+    apellido NVARCHAR(50) NOT NULL,
+    email NVARCHAR(100) NOT NULL UNIQUE,
+    contraseña NVARCHAR(100) NOT NULL,
+    rol NVARCHAR(20) NOT NULL, -- 'PACIENTE' / 'ADMIN'
+    fecha_registro DATETIME DEFAULT GETDATE(),
+    estado BIT DEFAULT 1
+);
+
+CREATE TABLE Especialidades (
+    id_especialidad INT IDENTITY(1,1) PRIMARY KEY,
+    nombre NVARCHAR(50) NOT NULL,
+    descripcion NVARCHAR(200) NULL
+);
+
+
+CREATE TABLE Medicos (
+    id_medico INT IDENTITY(1,1) PRIMARY KEY,
+    nombre NVARCHAR(50) NOT NULL,
+    apellido NVARCHAR(50) NOT NULL,
+    id_especialidad INT NOT NULL,
+    email NVARCHAR(100) NOT NULL UNIQUE,
+    estado BIT DEFAULT 1,
+    FOREIGN KEY (id_especialidad) REFERENCES Especialidades(id_especialidad)
+);
+
+
+CREATE TABLE Citas (
+    id_cita INT IDENTITY(1,1) PRIMARY KEY,
+    id_paciente INT NOT NULL,
+    id_medico INT NOT NULL,
+    fecha DATE NOT NULL,
+    hora TIME NOT NULL,
+    estado NVARCHAR(20) DEFAULT 'Programada', -- 'Programada', 'Cancelada', 'Atendida'
+    FOREIGN KEY (id_paciente) REFERENCES Usuarios(id_usuario),
+    FOREIGN KEY (id_medico) REFERENCES Medicos(id_medico)
+);
+
+
+CREATE TABLE Reportes (
+    id_reporte INT IDENTITY(1,1) PRIMARY KEY,
+    tipo NVARCHAR(50) NOT NULL,
+    fecha_generacion DATETIME DEFAULT GETDATE(),
+    descripcion NVARCHAR(200) NULL
+);
+
+
+
+-- Insertar administradores
+INSERT INTO Usuarios (nombre, apellido, email, contraseña, rol)
+VALUES ('Admin', 'Sistema', 'admin@medicitas.com', '1234', 'ADMIN');
+
+-- Insertar pacientes de prueba
+INSERT INTO Usuarios (nombre, apellido, email, contraseña, rol)
+VALUES 
+('Juan', 'Perez', 'juan.perez@mail.com', '1234', 'PACIENTE'),
+('Maria', 'Gomez', 'maria.gomez@mail.com', '1234', 'PACIENTE');
+
+-- Insertar especialidades
+INSERT INTO Especialidades (nombre, descripcion)
+VALUES 
+('Medicina General', 'Consulta general'),
+('Pediatría', 'Atención infantil'),
+('Cardiología', 'Atención de enfermedades del corazón');
+
+-- Insertar médicos
+INSERT INTO Medicos (nombre, apellido, id_especialidad, email)
+VALUES
+('Luis', 'Ramirez', 1, 'luis.ramirez@hospital.com'),
+('Ana', 'Lopez', 2, 'ana.lopez@hospital.com'),
+('Carlos', 'Fernandez', 3, 'carlos.fernandez@hospital.com');
+
+-- Insertar citas de prueba
+INSERT INTO Citas (id_paciente, id_medico, fecha, hora, estado)
+VALUES
+(2, 1, '2025-12-14', '09:00', 'Programada'),
+(3, 2, '2025-12-15', '10:00', 'Programada');

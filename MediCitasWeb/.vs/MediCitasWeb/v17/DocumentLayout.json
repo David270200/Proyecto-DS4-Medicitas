@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\songo\\Documents\\MediCitas\\MediCitasWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{839F442F-A8BD-49DA-A33D-FD6D56B68E9D}|MediCitasWeb\\MediCitasWeb.csproj|C:\\Users\\songo\\Documents\\MediCitas\\MediCitasWeb\\medicitasweb\\reportes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{839F442F-A8BD-49DA-A33D-FD6D56B68E9D}|MediCitasWeb\\MediCitasWeb.csproj|solutionrelative:medicitasweb\\reportes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{839F442F-A8BD-49DA-A33D-FD6D56B68E9D}|MediCitasWeb\\MediCitasWeb.csproj|C:\\Users\\songo\\Documents\\MediCitas\\MediCitasWeb\\medicitasweb\\reportes.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{839F442F-A8BD-49DA-A33D-FD6D56B68E9D}|MediCitasWeb\\MediCitasWeb.csproj|solutionrelative:medicitasweb\\reportes.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{839F442F-A8BD-49DA-A33D-FD6D56B68E9D}|MediCitasWeb\\MediCitasWeb.csproj|C:\\Users\\songo\\Documents\\MediCitas\\MediCitasWeb\\medicitasweb\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{839F442F-A8BD-49DA-A33D-FD6D56B68E9D}|MediCitasWeb\\MediCitasWeb.csproj|solutionrelative:medicitasweb\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{839F442F-A8BD-49DA-A33D-FD6D56B68E9D}|MediCitasWeb\\MediCitasWeb.csproj|c:\\users\\songo\\documents\\medicitas\\medicitasweb\\medicitasweb\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{839F442F-A8BD-49DA-A33D-FD6D56B68E9D}|MediCitasWeb\\MediCitasWeb.csproj|solutionrelative:medicitasweb\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{839F442F-A8BD-49DA-A33D-FD6D56B68E9D}|MediCitasWeb\\MediCitasWeb.csproj|C:\\Users\\songo\\Documents\\MediCitas\\MediCitasWeb\\medicitasweb\\agendarcita.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{839F442F-A8BD-49DA-A33D-FD6D56B68E9D}|MediCitasWeb\\MediCitasWeb.csproj|solutionrelative:medicitasweb\\agendarcita.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{839F442F-A8BD-49DA-A33D-FD6D56B68E9D}|MediCitasWeb\\MediCitasWeb.csproj|C:\\Users\\songo\\Documents\\MediCitas\\MediCitasWeb\\medicitasweb\\agendarcita.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{839F442F-A8BD-49DA-A33D-FD6D56B68E9D}|MediCitasWeb\\MediCitasWeb.csproj|solutionrelative:medicitasweb\\agendarcita.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Reportes.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\songo\\Documents\\MediCitas\\MediCitasWeb\\MediCitasWeb\\Reportes.aspx.cs",
+              "RelativeDocumentMoniker": "MediCitasWeb\\Reportes.aspx.cs",
+              "ToolTip": "C:\\Users\\songo\\Documents\\MediCitas\\MediCitasWeb\\MediCitasWeb\\Reportes.aspx.cs",
+              "RelativeToolTip": "MediCitasWeb\\Reportes.aspx.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA6wEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T04:41:43.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Reportes.aspx",
+              "DocumentMoniker": "C:\\Users\\songo\\Documents\\MediCitas\\MediCitasWeb\\MediCitasWeb\\Reportes.aspx",
+              "RelativeDocumentMoniker": "MediCitasWeb\\Reportes.aspx",
+              "ToolTip": "C:\\Users\\songo\\Documents\\MediCitas\\MediCitasWeb\\MediCitasWeb\\Reportes.aspx",
+              "RelativeToolTip": "MediCitasWeb\\Reportes.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-15T04:40:15.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AgendarCita.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\songo\\Documents\\MediCitas\\MediCitasWeb\\MediCitasWeb\\AgendarCita.aspx.cs",
+              "RelativeDocumentMoniker": "MediCitasWeb\\AgendarCita.aspx.cs",
+              "ToolTip": "C:\\Users\\songo\\Documents\\MediCitas\\MediCitasWeb\\MediCitasWeb\\AgendarCita.aspx.cs",
+              "RelativeToolTip": "MediCitasWeb\\AgendarCita.aspx.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T03:39:30.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AgendarCita.aspx",
+              "DocumentMoniker": "C:\\Users\\songo\\Documents\\MediCitas\\MediCitasWeb\\MediCitasWeb\\AgendarCita.aspx",
+              "RelativeDocumentMoniker": "MediCitasWeb\\AgendarCita.aspx",
+              "ToolTip": "C:\\Users\\songo\\Documents\\MediCitas\\MediCitasWeb\\MediCitasWeb\\AgendarCita.aspx",
+              "RelativeToolTip": "MediCitasWeb\\AgendarCita.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-15T03:36:28.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\songo\\Documents\\MediCitas\\MediCitasWeb\\MediCitasWeb\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "MediCitasWeb\\Login.aspx.cs",
+              "ToolTip": "C:\\Users\\songo\\Documents\\MediCitas\\MediCitasWeb\\MediCitasWeb\\Login.aspx.cs",
+              "RelativeToolTip": "MediCitasWeb\\Login.aspx.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAowDsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T03:04:58.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "C:\\Users\\songo\\Documents\\MediCitas\\MediCitasWeb\\MediCitasWeb\\Login.aspx",
+              "RelativeDocumentMoniker": "MediCitasWeb\\Login.aspx",
+              "ToolTip": "C:\\Users\\songo\\Documents\\MediCitas\\MediCitasWeb\\MediCitasWeb\\Login.aspx",
+              "RelativeToolTip": "MediCitasWeb\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-15T02:59:20.42Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
